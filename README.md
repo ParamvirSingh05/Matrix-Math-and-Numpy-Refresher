@@ -18,7 +18,7 @@ Vectors list of values. There a two types of vectors:
 
 Vectors have one dimensions which we also call length. From the example before, a person's height, weight and age, could be stored as a vector.
 
-![Row and Column Vectors](/assets/images/Vectors.png)
+![Row and Column Vectors](/assests/images/Vectors.png)
 
 ### Matrices
 A matrix is a two-dimensional grid of values. We describe the shape of a matrix in terms of it's number of rows and columns. If you had a single number for each pixel of an image, then you could store those pixel values in a matrix.

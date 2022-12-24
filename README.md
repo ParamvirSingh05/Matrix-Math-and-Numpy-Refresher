@@ -105,8 +105,7 @@ You can access elements of matrices just like vectors, but using additional inde
 ### Tensors
 Tensors are just like vectors and matrices, but they can have more dimensions. For example, to create a 3x3x2x1 tensor, you could do the following:
 
-> t = np.array([[[[1],[2]],[[3],[4]],[[5],[6]]],[[[7],[8]],\
->    [[9],[10]],[[11],[12]]],[[[13],[14]],[[15],[16]],[[17],[17]]]])
+> t = np.array([[[[1],[2]],[[3],[4]],[[5],[6]]],[[[7],[8]],[[9],[10]],[[11],[12]]],[[[13],[14]],[[15],[16]],[[17],[17]]]])
 
 And t.shape would return (3, 3, 2, 1).
 

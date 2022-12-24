@@ -98,6 +98,7 @@ and it would return an array of [2, 3]. NumPy slicing is quite powerful, allowin
 You create matrices using NumPy's array function, just you did for vectors. However, instead of just passing in a list, you need to supply a list of lists, where each list represents a row. So to create a 3x3 matrix containing the numbers one through nine, you could do this:
 
 > m = np.array([[1,2,3], [4,5,6], [7,8,9]])
+
 Checking its shape attribute would return the tuple (3, 3) to indicate it has two dimensions, each length 3.
 
 You can access elements of matrices just like vectors, but using additional index values. So to find the number 6 in the above matrix, you'd access m[1][2].

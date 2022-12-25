@@ -163,16 +163,18 @@ Suppose you had a list of numbers, and you wanted to add 5 to every item in the 
 > values = [1,2,3,4,5]
 > for i in range(len(values)):
 >    values[i] += 5
->
-> # now values holds [6,7,8,9,10]
+>  now values holds [6,7,8,9,10]
 
 That makes sense, but it's a lot of code to write and it runs slowly because it's pure Python.
 
 ### The NumPy way
 In NumPy, we could do the following:
-> values = [1,2,3,4,5]
-  values = np.array(values) + 5
-  # now values is an ndarray that holds [6,7,8,9,10]
+
+```
+values = [1,2,3,4,5]
+values = np.array(values) + 5
+now values is an ndarray that holds [6,7,8,9,10]
+```
 
 Creating that array may seem odd, but normally you'll be storing your data in ndarrays anyway. So if you already had an ndarray named values, you could have just done:
 

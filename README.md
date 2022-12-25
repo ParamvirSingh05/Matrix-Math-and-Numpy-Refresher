@@ -141,3 +141,16 @@ or
 
 Those lines create a slice that looks at all of the items of v but asks NumPy to add a new dimension of size 1 for the associated axis. It may look strange to you now, but it's a common technique so it's good to be aware of it.
 
+## 4.Element wise Matrix Operations
+
+I am sure you are already familiar with the scalar math. It's the normal addition, multiplication and so on.
+
+![Scalar Math](/assests/images/Scalar%20Math.png)
+
+But sometimes with neural networks you might need to perform those sort of operations on a lot of numbers, maybe hundreds, thousands, even millions of them. Maybe you need to double them, square them, or divide them all by the same number. If you were writing a program, you might decide to make a loop where you iterate over every value and perform the same operation on each one over and over, but matrices offer a better alternative.
+
+![Addition of Scalar and Matrix](/assests/images/Adding%20Scalar%20and%20Matrix.png)
+
+If you have all those numbers stores in a matrix, you can perform element-wise operations on them. You can also do element-wise math between all the elements within two different matrices. For this to work, the matrices have to be the same shape. 
+
+![Addition of two matrices](/assests/images/Adding%20two%20matrices.png)

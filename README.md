@@ -1,8 +1,10 @@
 # Matrix Math and Numpy Refresher
 
+## 1.Introduction
+
 Deep Learning involves a lot of matrix math, and it's important for you to understand the bascis before diving into building your own neural networks. This repository provides some guidance for using the Numpy library to work efficiently with matrices in Python.
 
-## Data Dimensions
+## 2.Data Dimensions
 
 Neural Networks do a lot of math with a lot of data. But before we start designing those networks with ourselves, and making sure that all that math is setup correctly, we first need to understand how we represent that data. Specifically, we need to think about the shapes data can have. For example, we might have a single number, representing a person's height in centimeters, or a list of numbers representing various features of that person like height, weight and age. Or maybe we have an image of that person and represent it as a grid, with rows and columns of individual pixels. And one possible way to represent a single pixel in that image might use three numbers, one for each red, blue, and green color channels.
 We describe these different shapes of data in terms of their number of dimensions.
@@ -30,7 +32,7 @@ The term tensor can be refered to as any n-dimensional collections of values. So
 
 We will also need to refer to individual elements inside of matrix. We do that using index, which is its row and then column.
 
-## Data in Numpy
+## 3.Data in Numpy
 
 Python is convenient, but it can also be slow. However, it does allow you to access libraries that execute faster code written in languages like C. NumPy is one such library: it provides fast alternatives to math operations in Python and is designed to work efficiently with groups of numbers - like matrices.
 
